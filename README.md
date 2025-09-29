@@ -119,10 +119,13 @@ cd librelane
 
 git checkout dev
 
-nix-shell
+nix-shell **Nesse passo demora bastante**
+
+exit
 
 ```
 
+## 3. Execução de exemplo
 Com tudo configurado, já podemos executar o exemplo com um somador completo:
 
 ```bash
