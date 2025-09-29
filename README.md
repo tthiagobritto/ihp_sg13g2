@@ -119,7 +119,8 @@ cd librelane
 
 git checkout dev
 
-nix-shell **Nesse passo demora bastante**
+##Nesse passo demora bastante
+nix-shell 
 
 exit
 
@@ -250,6 +251,7 @@ exit
 
 Executando o klayout para vermos o gds:
 
+```bash
 klayout ~/projetos/halfadd/runs/RUN_*/58-klayout-streamout/gcd.klayout.gds -nn $PDK_ROOT/$PDK/libs.tech/klayout/tech/sg13g2.lyt -l $PDK_ROOT/$PDK/libs.tech/klayout/tech/sg13g2.lyp
 
 ```
