@@ -155,8 +155,9 @@ Agora salvamos o arquivo e vamos criar outro:
 
 ```bash
 gedit halfadd_tb.v
-```bash
+```
 
+Copiar o código abaixo no editor de texto:
 ```bash
 module halfadd_tb;
 reg a,b;
